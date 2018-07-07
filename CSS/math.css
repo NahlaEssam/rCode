@@ -1,43 +1,43 @@
 @font-face {
     font-family: 'GothamBookRegular';
-    src: url('../fonts/GothamBookRegular.eot');
-    src: url('../fonts/GothamBookRegular.eot') format('embedded-opentype'),
-         url('../fonts/GothamBookRegular.woff2') format('woff2'),
-         url('../fonts/GothamBookRegular.woff') format('woff'),
-         url('../fonts/GothamBookRegular.ttf') format('truetype'),
-         url('../fonts/GothamBookRegular.svg#GothamBookRegular') format('svg');
+    src: url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/GothamBookRegular.eot');
+    src: url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/GothamBookRegular.eot') format('embedded-opentype'),
+         url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/GothamBookRegular.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/GothamBookRegular.woff') format('woff'),
+         url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/GothamBookRegular.ttf') format('truetype'),
+         url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/GothamBookRegular.svg#GothamBookRegular') format('svg');
 }
 @font-face {
     font-family: 'HelveticaNeueLTProBd';
-    src: url('../fonts/HelveticaNeueLTProBd.eot');
-    src: url('../fonts/HelveticaNeueLTProBd.eot') format('embedded-opentype'),
-         url('../fonts/HelveticaNeueLTProBd.woff2') format('woff2'),
-         url('../fonts/HelveticaNeueLTProBd.woff') format('woff'),
-         url('../fonts/HelveticaNeueLTProBd.ttf') format('truetype'),
-         url('../fonts/HelveticaNeueLTProBd.svg#HelveticaNeueLTProBd') format('svg');
+    src: url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/HelveticaNeueLTProBd.eot');
+    src: url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/HelveticaNeueLTProBd.eot') format('embedded-opentype'),
+         url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/HelveticaNeueLTProBd.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/HelveticaNeueLTProBd.woff') format('woff'),
+         url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/HelveticaNeueLTProBd.ttf') format('truetype'),
+         url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/HelveticaNeueLTProBd.svg#HelveticaNeueLTProBd') format('svg');
 }
 @font-face {
     font-family: 'HelveticaNeueLTProMd';
-    src: url('../fonts/HelveticaNeueLTProMd.eot');
-    src: url('../fonts/HelveticaNeueLTProMd.eot') format('embedded-opentype'),
-         url('../fonts/HelveticaNeueLTProMd.woff2') format('woff2'),
-         url('../fonts/HelveticaNeueLTProMd.woff') format('woff'),
-         url('../fonts/HelveticaNeueLTProMd.ttf') format('truetype'),
-         url('../fonts/HelveticaNeueLTProMd.svg#HelveticaNeueLTProMd') format('svg');
+    src: url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/HelveticaNeueLTProMd.eot');
+    src: url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/HelveticaNeueLTProMd.eot') format('embedded-opentype'),
+         url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/HelveticaNeueLTProMd.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/HelveticaNeueLTProMd.woff') format('woff'),
+         url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/HelveticaNeueLTProMd.ttf') format('truetype'),
+         url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/HelveticaNeueLTProMd.svg#HelveticaNeueLTProMd') format('svg');
 }
 @font-face {
     font-family: 'HelveticaNeueLTProRoman';
-    src: url('../fonts/HelveticaNeueLTProRoman.eot');
-    src: url('../fonts/HelveticaNeueLTProRoman.eot') format('embedded-opentype'),
-         url('../fonts/HelveticaNeueLTProRoman.woff2') format('woff2'),
-         url('../fonts/HelveticaNeueLTProRoman.woff') format('woff'),
-         url('../fonts/HelveticaNeueLTProRoman.ttf') format('truetype'),
-         url('../fonts/HelveticaNeueLTProRoman.svg#HelveticaNeueLTProRoman') format('svg');
+    src: url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/HelveticaNeueLTProRoman.eot');
+    src: url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/HelveticaNeueLTProRoman.eot') format('embedded-opentype'),
+         url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/HelveticaNeueLTProRoman.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/HelveticaNeueLTProRoman.woff') format('woff'),
+         url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/HelveticaNeueLTProRoman.ttf') format('truetype'),
+         url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/fonts/HelveticaNeueLTProRoman.svg#HelveticaNeueLTProRoman') format('svg');
 }
 
 body{
 	font-family: 'HelveticaNeueLTProMd';
-    background-image:url('../images/bg.png');
+    background-image:url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/images/bg.png');
     background-color:#27296d;
     background-size:cover;
     background-repeat: no-repeat;
@@ -71,7 +71,7 @@ h2, h4{color:#fff;}
     font-size:14px;
     color:#c9c9da;
     opacity:0.75;
-    background-image:url('../images/pulp-white.png');
+    background-image:url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/images/pulp-white.png');
     background-position: left center;
     background-repeat:no-repeat;
     height: 30px;
@@ -90,7 +90,7 @@ h2, h4{color:#fff;}
     outline-offset:0px !important;
 }
 .graph-bg{
-    background-image: url('../images/graph-bg.png');
+    background-image: url('https://raw.githubusercontent.com/NahlaEssam/rCode/master/images/graph-bg.png');
     background-repeat: repeat;
     text-align:  center;
     height: 100%;
@@ -290,7 +290,7 @@ border-bottom:  none;
 .modal-header .btn{
     opacity:1;
     font-size: 30px;
-    background-image: url(../images/close.png);
+    background-image: url(https://raw.githubusercontent.com/NahlaEssam/rCode/master/images/close.png);
     width: 35px;
     height: 35px;
     margin: 5px 0;
@@ -305,7 +305,7 @@ border-bottom:  none;
     padding: 5px 10px;
 }
 .modal-title span {
-    background-image: url(../images/bulb-black.png);
+    background-image: url(https://raw.githubusercontent.com/NahlaEssam/rCode/master/images/bulb-black.png);
     background-position: left center;
     background-repeat: no-repeat;
     background-size: 40px;
