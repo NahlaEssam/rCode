@@ -29,8 +29,8 @@ cssHead <- function(replace,...){
   }
   else{
     tags$head(
-      tags$link(rel = "stylesheet", type = "text/css", href = "CSS/font-awesome.min.css"),
-      tags$link(rel = "stylesheet", type = "text/css", href = "CSS/math.css"),
+      tags$link(rel = "stylesheet", type = "text/css", href = "https://raw.githubusercontent.com/NahlaEssam/rCode/master/CSS/font-awesome.min.css"),
+      tags$link(rel = "stylesheet", type = "text/css", href = "https://raw.githubusercontent.com/NahlaEssam/rCode/master/CSS/math.css"),
       ...
     )
   }
