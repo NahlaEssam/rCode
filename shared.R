@@ -1,11 +1,15 @@
 library(shiny)
-sideBarPanelLocal <- function(replace , ...){
+sideBarPanelLocal <- function(replace ,message, ...){
+  localMessage <- "Please set the numbers "
+  if(message !=""){
+    localMessage <- message
+  }
   if(replace){
     div(...)
   }
   else{
     sidebarPanel(
-      div(class="sideBarTitles margin-bottom-10","Please set the numbers "),
+      div(class="sideBarTitles margin-bottom-10", localMessage),
       ...
     )
   }
