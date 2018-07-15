@@ -75,12 +75,12 @@ page <- function(...){
   )
 }
 
-infoMessageDiv <- function(message , msgContentClass , ...){
+infoMessageDiv <- function(message ){
    localMessage <- "test info message"
    if(message != ""){
     localMessage <- message  
    }
-   div(class="text-center",div(class="info_msg",span(class="fa fa-info-circle"),div(class=msgContentClass, p(localMessage), ...)))                               
+   div(class="text-center",div(class="info_msg",span(class="fa fa-info-circle"), p(localMessage), ...))                               
                                               
 }
 
