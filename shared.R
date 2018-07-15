@@ -41,13 +41,14 @@ head <- function(replace,...){
 }
 
 header <- function(replace , leftSection , rightSectionText , extraClasses , ... ){
+  
   if(replace){
     div(... )
   }
   else{
     div(class="row",
         div(class="col-sm-9", leftSection),
-        div(class="col-sm-3", actionButton("show", rightSectionText, class="pull-right btn-view-tutorial" + extraClasses))
+        div(class="col-sm-3", actionButton("show", rightSectionText, class= cat("pull-right btn-view-tutorial", extraClasses, sep=" ") ))
     )
   }
 }
