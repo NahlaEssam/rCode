@@ -75,6 +75,14 @@ page <- function(...){
   )
 }
 
+infoMessageDiv <- function(message){
+   localMessage <- "test info message"
+   if(localMessage != ""){
+    localMessage <- message  
+   }
+    div(class="text-center",div(class="info_msg",span(class="fa fa-info-circle"),p(localMessage))
+}
+
 modalTitle <-  function(replace , titleMessage , ...){
   if(replace){
     tagList(
