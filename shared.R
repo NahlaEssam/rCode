@@ -41,6 +41,7 @@ head <- function(replace,...){
 }
 
 header <- function(replace , leftSection , rightSectionText , extraClasses , ... ){
+  print(extraClasses);
   
   if(replace){
     div(... )
@@ -48,7 +49,7 @@ header <- function(replace , leftSection , rightSectionText , extraClasses , ...
   else{
     div(class="row",
         div(class="col-sm-9", leftSection),
-        div(class="col-sm-3", actionButton("show", rightSectionText, class= extraClasses ))
+        div(class="col-sm-3", actionButton("show", rightSectionText, class= paste("pull-right btn-view-tutorial", extraClasses, sep = " ") ))
     )
   }
 }
