@@ -47,7 +47,7 @@ header <- function(replace , leftSection , rightSectionText , extraClasses , ...
   else{
     div(class="row",
         div(class="col-sm-9", leftSection),
-        div(class="col-sm-3", rightSection)
+        div(class="col-sm-3", actionButton("show", rightSectionText, class="pull-right btn-view-tutorial" + extraClasses))
     )
   }
 }
