@@ -75,12 +75,15 @@ page <- function(...){
   )
 }
 
-infoMessageDiv <- function(message){
+infoMessageDiv <- function(message , msgContentClass , ...){
    localMessage <- "test info message"
    if(message != ""){
     localMessage <- message  
    }
-   div(class="text-center",div(class="info_msg",span(class="fa fa-info-circle"),p(localMessage)))
+   div(class="text-center",div(class="info_msg",span(class="fa fa-info-circle"),div(class=msgContentClass, p(localMessage), ...))
+  #  div(class="text-center",div(class="info_msg",span(class="fa fa-info-circle"),div(class="msg_content",p("Find Area Of The Shape"),uiOutput("ar"))
+                                              )
+                                              )
 }
 
 modalTitle <-  function(replace , titleMessage , ...){
