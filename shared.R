@@ -25,7 +25,7 @@ mainPanelLocal <- function(replace , ...){
   
 }
 
-cssHead <- function(replace,...){
+head <- function(replace,...){
   if(replace){
     tags$head(
       ...
@@ -40,7 +40,7 @@ cssHead <- function(replace,...){
   }
 }
 
-header <- function(replace , leftSection , rightSection , ... ){
+header <- function(replace , leftSection , rightSectionText , extraClasses , ... ){
   if(replace){
     div(... )
   }
