@@ -80,7 +80,7 @@ infoMessageDiv <- function(message){
    if(localMessage != ""){
     localMessage <- message  
    }
-    div(class="text-center",div(class="info_msg",span(class="fa fa-info-circle"),p(localMessage))
+    div(class="text-center",div(class="info_msg",span(class="fa fa-info-circle"),p(localMessage)))
 }
 
 modalTitle <-  function(replace , titleMessage , ...){
